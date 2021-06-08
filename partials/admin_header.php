@@ -18,7 +18,7 @@
     <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
       <div class="container-fluid">
         <div class="nav-header">
-          <a href="<?= WEBROOT; ?>admin/index.php" class="navbar-brand">Mon phpfolio</a>
+          <a href="<?= WEBROOT; ?>admin/index.php" class="navbar-brand"><img src="https://www.php.net/images/logos/php-icon.png" alt="" class="d-inline-block align-text-top"> Mon phpfolio </a>
         </div>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">

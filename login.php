@@ -18,6 +18,8 @@ if(isset($_POST['username']) && isset($_POST['password'])){
   };
 }
 
+$categories = $db->query('SELECT slug, name FROM categories')->fetchAll();
+
 /**
 * INCLUSION DU HEADER
 **/
@@ -36,5 +38,4 @@ include 'partials/header.php';
   <button type="submit" class="btn btn-primary">Se connecter</button>
 </form>
 
-<?php include 'lib/debug.php'; ?>
 <?php include 'partials/footer.php'; ?>
