@@ -18,7 +18,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" role="navigation">
       <div class="container-fluid">
         
-          <a href="<?= WEBROOT; ?>" class="navbar-brand"><img src="https://www.php.net/images/logos/php-icon.png" alt="" class="d-inline-block align-text-top"> Mon phpfolio </a>
+          <a href="<?= WEBROOT; ?>" class="navbar-brand"><img src="https://www.php.net/images/logos/php-icon.png" alt="PHP" class="d-inline-block align-text-top"> Mon phpfolio </a>
 
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">

@@ -44,7 +44,7 @@ include 'partials/header.php';
   <div class="col-sm-8">
     <div class="row">
       <?php foreach($works as $k => $work): ?>
-        <div class="col-sm-5">
+        <div class="col-sm-6">
         
           <div class="card" style="width: 20rem;">
               <img src="<?= WEBROOT; ?>img/works/<?= resizedName($work['image_name'], 150, 150); ?>" class="card-img-top" alt="<?= $work['name']; ?>">
@@ -64,7 +64,7 @@ include 'partials/header.php';
     </div>
   </div>
 
-    <div class="col-sm-4">
+    <div class="col-sm-2">
 
       <div class="list-group">
         
